@@ -1,0 +1,17 @@
+{
+  "name": "tap-esmock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 tap --disable-coverage --allow-empty-coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^9.1.0",
+    "esmock": "^2.6.3",
+    "tap": "18.7.0"
+  }
+}
